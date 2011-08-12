@@ -1502,6 +1502,16 @@
 
   <dependencyManagement>
     <dependencies>
+
+      <!-- GateIn dependencies -->
+      <dependency>
+        <groupId>org.gatein</groupId>
+        <artifactId>gatein-dep</artifactId>
+        <version>1.1.0-Beta05</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
       <!-- project dependencies -->
       <dependency>
         <groupId>org.gatein.shindig</groupId>
@@ -1667,6 +1677,8 @@
         <version>current</version>
         <scope>test</scope>
       </dependency>
+
+      <!-- for testing purpose -->
       <dependency>
         <groupId>org.mortbay.jetty</groupId>
         <artifactId>jetty</artifactId>
