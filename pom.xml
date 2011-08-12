@@ -28,7 +28,7 @@
 
   <groupId>org.gatein.shindig</groupId>
   <artifactId>shindig-project</artifactId>
-  <version>2.0.2-SNAPSHOT</version>
+  <version>2.0.2.Final-gatein-2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Apache Shindig Project</name>
@@ -1489,7 +1489,7 @@
       <dependency>
         <groupId>org.gatein</groupId>
         <artifactId>gatein-dep</artifactId>
-        <version>1.1.0-Beta05</version>
+        <version>1.1.0-Beta06</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -1790,4 +1790,12 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+
+  <repositories>
+    <repository>
+      <id>google-diff-match-patch</id>
+      <url>http://google-diff-match-patch.googlecode.com/svn/trunk/maven</url>
+    </repository>
+  </repositories>
+
 </project>
