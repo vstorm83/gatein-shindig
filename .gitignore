@@ -373,3 +373,8 @@
 /php/create.sql
 /php/drop.sql
 /php/derby.log
+
+release.properties
+*.releaseBackup
+target
+*.iml
