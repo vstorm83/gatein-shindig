@@ -1,0 +1,151 @@
+Title: Downloads
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
+
+# Apache Shindig Downloads
+
+
+Apache Shindig is distributed under the [Apache License, version 2.0](license.html "License").
+
+Apache Shindig is a distributed as API and as a Web application. You must have a Servlet container for the Java version or a Web server for the PHP version installed in order to proceed. 
+Shindig was successfully tested on Jetty (Java), Tomcat (Java), Apache (PHP).
+
+## General Availability Releases
+  
+### Current Version
+
+Apache Shindig 2.5.0-update1 was released the 2013-10-21.
+
+[http://www.apache.org/dist/shindig/2.5.0-update1/](http://www.apache.org/dist/shindig/2.5.0-update1/)
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Implementation</th>
+      <th>Download Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Apache Shindig (tar.bz2)</td>
+      <td>Java</td>
+      <td><a href="http://www.apache.org/dist/shindig/2.5.0-update1/shindig-2.5.0-update1-java.tar.bz2">shindig-2.5.0-update1-java.tar.bz2</a></td>
+    </tr>
+    <tr>
+      <td>Apache Shindig (tar.gz)</td>
+      <td>Java</td>
+      <td><a href="http://www.apache.org/dist/shindig/2.5.0-update1/shindig-2.5.0-update1-java.tar.gz">shindig-2.5.0-update1-java.tar.gz</a></td>
+    </tr>
+    <tr>
+      <td>Apache Shindig (zip)</td>
+      <td>Java</td>
+      <td><a href="http://www.apache.org/dist/shindig/2.5.0-update1/shindig-2.5.0-update1-java.zip">shindig-2.5.0-update1-java.zip</a></td>
+    </tr>
+    <tr>
+      <td>Apache Shindig (war)</td>
+      <td>Java</td>
+      <td><a href="http://www.apache.org/dist/shindig/2.5.0-update1/shindig-server-2.5.0-update1.war">shindig-server-2.5.0-update1.war</a></td>
+    </tr>
+    <tr>
+      <td>Apache Shindig (tar.bz2)</td>
+      <td>PHP</td>
+      <td><a href="http://www.apache.org/dist/shindig/2.5.0-update1/shindig-2.5.0-update1-php.tar.bz2">shindig-2.5.0-update1-php.tar.bz2</a></td>
+    </tr>
+    <tr>
+      <td>Apache Shindig (tar.gz)</td>
+      <td>PHP</td>
+      <td><a href="http://www.apache.org/dist/shindig/2.5.0-update1/shindig-2.5.0-update1-php.tar.gz">shindig-2.5.0-update1-php.tar.gz</a></td>
+    </tr>
+    <tr>
+      <td>Apache Shindig (zip)</td>
+      <td>PHP</td>
+      <td><a href="http://www.apache.org/dist/shindig/2.5.0-update1/shindig-2.5.0-update1-php.zip">shindig-2.5.0-update1-php.zip</a></td>
+    </tr>
+    <tr>
+      <td>Apache Shindig (tar.bz2)</td>
+      <td>Source</td>
+      <td><a href="http://www.apache.org/dist/shindig/2.5.0-update1/shindig-2.5.0-update1-source.tar.bz2">shindig-2.5.0-update1-source.tar.bz2</a></td>
+    </tr>
+    <tr>
+      <td>Apache Shindig (tar.gz)</td>
+      <td>Source</td>
+      <td><a href="http://www.apache.org/dist/shindig/2.5.0-update1/shindig-2.5.0-update1-source.tar.gz">shindig-2.5.0-update1-source.tar.gz</a></td>
+    </tr>
+    <tr>
+      <td>Apache Shindig (zip)</td>
+      <td>Source</td>
+      <td><a href="http://www.apache.org/dist/shindig/2.5.0-update1/shindig-2.5.0-update1-source.zip">shindig-2.5.0-update1-source.zip</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### Previous Releases
+
+[Apache Shindig 2.5.0](http://archive.apache.org/dist/shindig/2.5.0/)
+
+[Apache Shindig 2.5.0 Beta 6](http://archive.apache.org/dist/shindig/2.5.0-beta6/)
+
+[Apache Shindig 2.5.0 Beta 5](http://archive.apache.org/dist/shindig/2.5.0-beta5/)
+
+[Apache Shindig 2.5.0 Beta 4](http://archive.apache.org/dist/shindig/2.5.0-beta4/)
+
+[Apache Shindig 2.5.0 Beta 3](http://archive.apache.org/dist/shindig/2.5.0-beta3/)
+
+[Apache Shindig 2.5.0 Beta 2](http://archive.apache.org/dist/shindig/2.5.0-beta2/)
+
+[Apache Shindig 2.5.0 Beta 1](http://archive.apache.org/dist/shindig/2.5.0-beta1/)
+
+[Apache Shindig 3.0 Beta 4](http://repo1.maven.org/maven2/org/apache/shindig/shindig/3.0.0-beta4/)
+
+[Apache Shindig 3.0 Beta 3](http://repo1.maven.org/maven2/org/apache/shindig/shindig/3.0.0-beta3/)
+
+[Apache Shindig 3.0 Beta 2](http://repo1.maven.org/maven2/org/apache/shindig/shindig/3.0.0-beta2/)
+
+[Apache Shindig 2.0.0](http://archive.apache.org/dist/shindig/2.0.0/)
+
+[Apache Shindig 1.1 Beta 5](http://archive.apache.org/dist/shindig/1.1-BETA5-incubating/)
+
+[Apache Shindig 1.0.1](http://archive.apache.org/dist/shindig/1.0.1/)
+
+##Documentation
+<span class="label label-important">What do we do about documentation now?</span>
+
+##Integration Builds
+Apache Shindig uses [Hudson](http://shindig.apache.org/integration.html) as Continuous Integration tool. You could download the latest build from the trunk 
+(i.e. implementation of OpenSocial Spec 2.5) or the branch.
+
+<span class="label label-important">What kind of content do we want to put here?</span>
+
+##System Requirements
+<span class="label label-important">Verify these requirements are still correct.</span>
+
+* **Java version:** Servlet container supporting Web Application 2.3 or above and JDK 1.6 or above (as up Shindig 2.5.0 Beta6)
+* **PHP version:** Apache Web Server with mod_rewrite enabled and PHP 5.2.x with the json, simplexml, mcrypt and curl extensions enabled.
+
+##Installation Instructions
+
+**Note:** Read the README files inside the distributions for detailed instructions.
+
+1. Unzip the distribution archive to the directory you wish to install Apache Shindig.
+2. Install Apache Shindig in your Servlet container or in your Web server depending the wanted implementations. 
+Have a glance to your server documentation before processing. For instance, you could do:
+    * Java version: copy the Apache Shindig WAR file to $TOMCAT_HOME/webapps for Tomcat.
+    * PHP version: copy shindig-php into /var/www/html/shindig for Apache.
+3. In your browser navigate to [http://localhost:8080/containers/commoncontainer/index.html](http://localhost:8080/samplecontainer/examples/commoncontainer/index.html)
+
+![Common Container](images/common_container.png)

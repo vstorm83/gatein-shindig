@@ -1,0 +1,44 @@
+Title: Getting Started
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
+
+# Getting Started
+
+So, you correctly [downloaded](download.html) and [installed](download.html) Apache Shindig, what's next?
+
+## Discovering Apache Shindig Samples
+
+The sample container should be your first starting point:
+
+[http://localhost:8080/containers/commoncontainer/index.html](http://localhost:8080/containers/commoncontainer/index.html)
+
+The page displayed in the figure bellow is the Apache Shindig sample container. Its goal is to help you to deploy and test your 
+applications.  It is build ontop of the common container client side code.
+
+![Common Container](images/common_container.png)
+
+By default there are no gadgets displayed in the container.  You can add a gadget to the container by entering a URL to a
+gadget definition and pressing "Preload and Add" or by selecting from a list of predefined gadgets and pressing "Add Gadgets" in
+the manage gadgets section of the container.
+
+![Manage Gadgets](images/common_container_manage_gadgets.png)
+
+There are various sets of predefinied gadgets available to you in the sample common container page.  See each individual gadget
+for details on what it does.
+
+
+

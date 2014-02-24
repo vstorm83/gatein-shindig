@@ -1,0 +1,67 @@
+Title: Welcome To Apache Shindig
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
+
+<div class="hero-unit">
+    <h1>Welcome To Apache Shindig!</h1>
+    <p>
+    Apache Shindig is an OpenSocial container and helps you to start hosting OpenSocial apps quickly by providing the code to render gadgets, proxy requests, and handle REST and RPC requests.
+    </p>
+    <p><a class="btn btn-primary btn-large" href="about_shindig_overview.html">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+  <div class="span8">
+   <h2>What is Apache Shindig?</h2>
+     <p>Apache Shindig's goal is to allow new sites to start hosting social apps in under an hour's worth of work.  Apache Shindig is a container for hosting social application consisting of four parts:</p>
+     <ul>
+       <li><b>Gadget Container JavaScript:</b> core JavaScript foundation for general gadget functionality (<a href="http://code.google.com/apis/gadgets/docs/dev_guide.html">read more about gadget functionality</a>). This JavaScript manages security, communication, UI layout, and feature extensions, such as the OpenSocial API.</li>
+       <li><b>Gadget Rendering Server:</b> used to render the gadget XML into JavaScript and HTML for the container to expose via the container JavaScript.</li>
+       <li><b>OpenSocial Container JavaScript:</b> JavaScript environment that sits on top of the Gadget Container JavaScript and provides OpenSocial specific functionality (profiles, friends, activities, datastore).</li>
+       <li><b>OpenSocial Data Server:</b> an implementation of the server interface to container-specific information, including the OpenSocial REST APIs, with clear extension points so others can connect it to their own backends.</li>
+     </ul>
+     <p>Apache Shindig is the reference implementation of <a href="http://docs.opensocial.org/display/OSD/Specs">OpenSocial API specifications</a>, versions 1.0.x and 2.0.x, a standard set of Social Network APIs which includes:</p>
+     <ul>
+      <li>Profiles</li>
+      <li>Relationships</li>
+      <li>Activities</li>
+      <li>Shared applications</li>
+      <li>Authentication</li>
+      <li>Authorization</li>
+     </ul>
+           
+   </div>
+  <div class="span4">
+    <ul class="thumbnails">
+     <li class="span4">
+        <div class="thumbnail">
+         <img src="http://www.apache.org/images/feather-small.gif" alt="Apache">
+       </div>
+     </li>
+      <li class="span4">
+        <div class="thumbnail">
+         <img src="images/opensocial_dark.jpg" alt="OpenSocial">
+       </div>
+     </li>
+     <li class="span4">
+        <div class="thumbnail">
+          <img src="images/gadget-server.png" alt="Gadget Server">
+        </div>
+     </li>
+   </ul>
+ </div>
+</div>

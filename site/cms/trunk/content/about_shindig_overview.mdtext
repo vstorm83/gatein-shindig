@@ -1,0 +1,114 @@
+Title: Overview Of Apache Shindig
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
+
+# Introduction
+
+Apache Shindig, a word meaning party, was originally started by Google in 2007 as a reference container for hosting OpenSocial 
+compatible widgets in any website. Originally a port of Google's iGoogle gadget container, with Brian McCallister's PHP code, 
+Apache Shindig threw off it's egg shell, and showed that Google was serious about making OpenSocial accessible to a larger 
+number of sites. Since December 2007, Apache Shindig is now an Apache project.
+
+# Apache Shindig's Objectives
+
+<div class="row-fluid">
+  <div class="span7">
+    Apache Shindig's primary goal is to provide infrastructure for those wishing to host OpenSocial apps on their websites. 
+  </div>
+  <div class="span2">
+    <div class="thumbnail">
+      <img src="images/java-logo.png"/>
+    </div>
+  </div>
+</div>
+
+# Apache Shindig Components
+
+## Server Side
+
+The Java version of Apache Shindig have 3 major server side components:
+
+1.  Persistent Data Loading Mechanism.
+2.  Gadget Rendering Infrastructure.
+3.  OpenSocial server side implementation.
+
+<div class="row-fluid">
+  <div class="span6">
+    <div class="thumbnail">
+      <div class="caption">
+  	    <h5>Components of Apache Shindig Java Server Side container</h5>
+      </div>
+      <img src="images/shindig-server-java.jpg"/>
+    </div>
+  </div>
+</div>
+
+## Client Side
+
+The Javascript features are:
+
+*  Gadget container (gadget.js), fully OpenSocial gadget compliant.
+*  OpenSocial container.
+*  [JSON](http://www.json.org/), Restful container and [Caja](http://code.google.com/p/google-caja/) support.
+
+<div class="row-fluid">
+  <div class="span6">
+    <div class="thumbnail">
+      <img src="images/shindig-client.jpg"/>
+    </div>
+  </div>
+</div>
+
+## Put It Together: OpenSocial Flow
+
+The following is a typical flow to get a list of Friends.
+
+### Server Side Flow
+
+1.  Call JsonRpcServlet.
+2.  Get the appropriate handler.
+3.  Get the JSON object from the DB.
+4.  Populate responses into a list.
+5.  Return to the client.
+
+In the case of the REST use, the flow will be:
+
+1.  Call DataServiceServlet.
+2.  Get the appropriate converter.
+3.  Get the handler.
+4.  Get the JSON object from the DB.
+5.  Return to the client.
+
+### Client Side Flow
+
+1.  Create request object.
+2.  Populate request parameters.
+3.  Send the request.
+
+## OpenSocial APIs
+
+Apache Shindig implements several OpenSocial APIs:
+
+*  OpenSocial REST: for server to server communication
+*  OpenSocial JSON-RPC: for gadget to server communication
+*  Javascript: for gadgets
+
+For more information on the OpenSocial APIs see the [OpenSocial spec](http://docs.opensocial.org/display/OSD/Specs).
+
+## Resources
+*  [Overview of REST Implementation in Apache Shindig - Java Version](https://sites.google.com/site/opensocialarticles/Home/shindig-rest-java) by Rajdeep Dua.
+*  [Presentation on Shindig Architecture - Java](https://sites.google.com/site/opensocialarticles/shindig-architecture-presentation) by Rajdeep Dua.

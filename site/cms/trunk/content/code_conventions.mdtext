@@ -1,0 +1,51 @@
+Title: Apache Shindig Code Conventions
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
+
+# Apache Shindig Code Style And Code Conventions
+
+This document describes how developers and contributors should write code. The reasoning 
+of these styles and conventions is mainly for consistency, readability and maintainability reasons.
+
+##  Generic Code Style And Convention
+
+All working files (java, xml, others) should respect the following conventions:
+
+*  License Header: Always add the current 
+[ASF license header](http://www.apache.org/legal/src-headers.html#headers) in all versionned files.
+*  Trailing Whitespaces: Remove all trailing whitespaces. If your are an Eclipse user, you could 
+use the [Anyedit Eclipse Plugin](http://andrei.gmxhome.de/anyedit/).
+
+and the following style:
+
+*  Indentation: Never use tabs!
+*  Line wrapping: Always use a 100-column line width.
+
+Note: The specific styles and conventions, listed in the next sections, could override these generic rules.
+
+##  Java
+
+###  Java Code Style
+
+The full Apache Shindig for Java is described in our 
+[Wiki](http://cwiki.apache.org/SHINDIGxSITE/java-style.html).
+
+<span class="label label-important">Describe how to import Eclipse Java code templates</span>
+
+##  JavaScript
+
+<span class="label label-important">Describe how to import Eclipse JavaScript code templates</span>

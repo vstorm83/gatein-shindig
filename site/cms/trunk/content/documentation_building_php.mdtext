@@ -1,0 +1,110 @@
+Title: Building and running Apache Shindig for PHP
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
+
+# Building and running Apache Shindig for PHP
+
+<br/>
+<span class="alert alert-error">The PHP version of Shindig has been moved to the attic, this is only kept here for
+legacy reasons.</span>
+
+This is the PHP steps on how to build and run Apache Shindig.
+
+* Prequisites
+* Get the code
+* Running Apache Shindig
+* Additonal reading
+
+## Prequisites before building Apache Shindig for PHP
+
+
+In order to build and run Apache Shindig for PHP, you must have the following:
+
+* A Subversion client installed in order to checkout the code.
+    * Instructions for downloading and installing Subversion can be found [here](http://subversion.tigris.org/).
+* Apache with mod_rewrite enabled.
+    * PHP 5.2.x with the [json](http://us.php.net/json), [simplexml](http://us.php.net/simplexml), 
+      [mcrypt](http://us2.php.net/mcrypt) and [curl](http://us3.php.net/curl) extentions enabled.
+
+## Getting the code
+
+Create a subdirectory in your web document root, e.g. /var/www/html and checkout the 
+Apache Shindig code from its Subversion repository.
+
+1. mkdir /var/www/html/shindig
+2. cd /var/www/html/shindig
+3. svn co http://svn.apache.org/repos/asf/shindig/trunk/
+
+## Running Apache Shindig
+
+With PHP There is no need to build anything - the source code is already built.
+
+To run the code, you have several options:
+
+### a. Create a new virtual host
+
+Point your apache to the php dir with a virtual host like:
+
+<pre>
+      &lt;VirtualHost your_ip:your_port&gt;
+        ServerName your.host
+        DocumentRoot /var/www/html/shindig/php
+        ... other normal settings in vhosts...
+      &lt;/VirtualHost&gt;
+</pre>
+
+Restart apache, and point your browser to:
+
+http://your.host/gadgets/ifr?url=http://www.labpixies.com/campaigns/todo/todo.xml
+
+<div class="row-fluid">
+  <div class="span6">
+    <ul class="thumbnails">
+      <li class="span4">
+        <div class="thumbnail">
+          <img src="images/task.png" alt="">
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+### b. Run with an existing host
+
+If you cannot/don't want to create a virtual host, you can edit the file php/config.php and 
+change the web_prefix setting to '/shindig/php'.
+
+Then you can run the gadget by pointing your browser to:
+
+http://your.host/shindig/php/gadgets/ifr?url=http://www.labpixies.com/campaigns/todo/todo.xml
+
+<div class="row-fluid">
+  <div class="span6">
+    <ul class="thumbnails">
+      <li class="span4">
+        <div class="thumbnail">
+          <img src="images/task.png" alt="">
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+## Additional reading
+
+Read [php/README](http://svn.apache.org/repos/asf/shindig/trunk/php/README) for original instructions on 
+how to start up the php Apache Shindig server.

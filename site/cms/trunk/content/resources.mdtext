@@ -1,0 +1,40 @@
+Title: Apache Shindig Resources
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
+
+# Articles on Apache Shindig
+
+All articles on Apache Shindig are listed on our 
+[Wiki](http://cwiki.apache.org/confluence/display/SHINDIG/Index#Index-ArticlesonShindig).
+
+If you are writing an article on Apache Shindig we suggest contacting the developers on the 
+mailing list as we would be happy to provide feedback to help ensure accuracy in your article. 
+Just ping us on the [dev mailing list](mail-lists.html) to get in touch.
+
+# Resources
+
+The following list is some pointers on related OpenSocial resources.
+
+*  [OpenSocial Foundation](http://opensocial.org/)
+*  [OpenSocial Community Wiki](http://docs.opensocial.org)
+*  [OpenSocial project](http://code.google.com/apis/opensocial)
+*  [OpenSocial resources project](http://code.google.com/p/opensocial-resources/)
+*  [Gadget resources project](http://code.google.com/p/gadget-resources/)
+*  [OpenSocial Templates](http://ostemplates-demo.appspot.com/)
+*  [OpenSocial Dev App](http://osda.appspot.com/)
+*  [OpenSocial Templates Developer App](http://ostemplates-devapp.appspot.com/)
+*  <b>Add more, see [How to Contribute](community_overview.html) page</b>

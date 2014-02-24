@@ -1,0 +1,88 @@
+Title: Feature Documentation
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
+
+# Documentation Centre for the Apache Shindig's Features
+
+This documentation centre is for developer who wants to use the Apache Shindig's features.
+
+* Features List
+* Using Features
+* Create Your Own Feature
+* JavascriptDoc for 1.1.x
+
+## Apache Shindig Features
+
+A list of features can be found in the source code.
+
+* [Shindig 2.5.0](https://svn.apache.org/repos/asf/shindig/tags/shindig-project-2.5.0/features/src/main/javascript/features/)
+* [Shindig 2.0.2](https://svn.apache.org/repos/asf/shindig/tags/shindig-project-2.0.2/features/src/main/javascript/features/)
+* [Shindig 2.0.1](https://svn.apache.org/repos/asf/shindig/tags/shindig-project-2.0.1/features/src/main/javascript/features/)
+* [Shindig 2.0.0](https://svn.apache.org/repos/asf/shindig/tags/shindig-project-2.0.0/features/src/main/javascript/features/)
+* [Shindig 1.0.1](https://svn.apache.org/repos/asf/shindig/tags/shindig-project-1.0.1/features/src/main/javascript/features/)
+
+## Using Features
+
+To use an above feature in your gadget, you need to specify the feature as <require/> in <ModulePrefs/> and defining 
+some Javascript codes to use it.
+
+For example, if you plan to use the [tabs/feature.xml](http://svn.apache.org/repos/asf/shindig/trunk/features/src/main/javascript/features/tabs/feature.xml), 
+your gadget will look like the following:
+
+<pre>&lt;Module&gt;
+  &lt;ModulePrefs title="TabExample" description="Tabs Example"&gt;
+    &lt;Require feature="tabs"&gt;&lt;/Require&gt;
+  &lt;/ModulePrefs&gt;
+  &lt;Content type="html"&gt;
+    &lt;![CDATA[
+    &lt;script type="text/javascript"&gt;
+      function onLoad(){ 
+        var tabset=new gadgets.TabSet();
+        tabset.alignTabs('left');        
+
+        tabset.addTab("Tab1",{contentContainer:document.getElementById("tab1")});
+
+        tabset.addTab("Tab2",{contentContainer:document.getElementById("tab2")});
+      } 
+  
+      gadgets.util.registerOnLoadHandler(onLoad);
+    &lt;/script&gt;
+
+    &lt;div id="tab1"&gt;
+      Contents go to Tab1
+    &lt;/div&gt;
+
+    &lt;div id="tab2"&gt;
+      Contents go to Tab2
+    &lt;/div&gt;
+    ]]&gt;
+  &lt;/Content&gt;
+&lt;/Module&gt;
+</pre>
+
+You could test your code using the Gadget testing container at: 
+[http://localhost:8080/samplecontainer/examples/commoncontainer/index.html](http://localhost:8080/samplecontainer/examples/commoncontainer/index.html).
+
+<img alt="Common Container" src="images/common_container.png">
+
+## Create Your Own Feature
+
+<span class="label label-important">TODO need to document this</span>
+
+## Resources
+
+* [The opensocial-resources project](http://code.google.com/p/opensocial-resources/)
